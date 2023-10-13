@@ -1,0 +1,22 @@
+/* navbarcss.css */
+
+.hamburger-button {
+    display: block;
+    /* Show the button */
+    cursor: pointer;
+}
+
+.hamburger-button.active {
+    /* Define styles for the active (open) menu */
+    /* For example, you can change the icon to an 'X' or change the background color */
+}
+
+.menus {
+    display: none;
+    /* Hide the menu by default */
+}
+
+.menus.show {
+    /* Define styles for the visible (open) menu */
+    /* For example, you can change the display to 'block' and add animation */
+}
